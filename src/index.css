@@ -1,0 +1,12 @@
+.pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pages a {
+  margin-right: 10px;
+}
+
+
+

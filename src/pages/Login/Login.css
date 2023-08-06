@@ -1,0 +1,74 @@
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 40px;
+    background-color: coral;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  
+  .input-email {
+    color: #fff;
+  }
+  
+  .input-email {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .login-box .input-email  {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .input-password  {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .login-box .input-email:focus {
+    border-color: #fff;
+  }
+  
+  .btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(243, 197, 181);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: rgb(39, 22, 16);
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(217, 224, 217, 0.5);
+  }
+  
+  .btn:active {
+    background-color: rgb(238, 120, 9);
+  }
+  
